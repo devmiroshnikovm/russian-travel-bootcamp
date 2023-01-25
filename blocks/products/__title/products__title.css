@@ -1,0 +1,14 @@
+.products__title {
+  /* reset intents in text element */
+  margin: 0;
+  padding: 0;
+
+  max-width: 460px;
+  color: #ffffff;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}

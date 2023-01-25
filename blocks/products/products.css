@@ -1,0 +1,11 @@
+.products {
+  /* grid container */
+  width: calc(100% - 148px * 2);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+
+  justify-content: center;
+}

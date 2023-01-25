@@ -1,0 +1,20 @@
+.products__text {
+  /* reset intents in text element */
+  margin: 0;
+  padding: 0;
+
+  max-width: 484px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+
+  color: #ffffff;
+}
+
+.products__text:last-child:not(:only-child) {
+  padding-top: 26px;
+}

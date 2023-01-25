@@ -1,0 +1,18 @@
+.products__link {
+  /* reset intents in text element */
+  margin: 0;
+  padding: 0;
+
+  margin-top: 12px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}

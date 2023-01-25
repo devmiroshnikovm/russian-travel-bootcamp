@@ -1,0 +1,11 @@
+.products__item {
+  outline: auto red;
+
+  margin-bottom: 80px;
+
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: 1fr 460px;
+  row-gap: 48px;
+  column-gap: 40px;
+}

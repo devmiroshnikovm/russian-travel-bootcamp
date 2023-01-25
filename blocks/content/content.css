@@ -1,0 +1,6 @@
+.content {
+  display: grid;
+  grid-template: minmax(10px, auto) 1fr / 1 fr;
+  gap: 20px;
+  background-color: #2a2c2f;
+}
