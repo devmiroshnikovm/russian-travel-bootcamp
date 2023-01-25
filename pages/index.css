@@ -1,10 +1,12 @@
 @import url(../vendor/normalize.css);@import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/gallery/__img/gallery__img.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
-@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__items-wrapper/gallery__items-wrapper.css);
 @import url(../blocks/gallery/__list/gallery__list.css);
-@import url(../blocks/gallery/__lists/gallery__lists.css);
+@import url(../blocks/gallery/__span-number/gallery__span-number.css);
 @import url(../blocks/gallery/__subtitle/gallery__subtitle.css);
+@import url(../blocks/gallery/__text-wrapper/gallery__text-wrapper.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/header/__lang/_language_en/header__lang_language_en.css);
