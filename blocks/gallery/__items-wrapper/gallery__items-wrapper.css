@@ -1,9 +1,11 @@
 .gallery__items-wrapper {
   display: grid;
   grid-template-columns: repeat(4, minmax(284px, 1fr));
-  grid-template-rows: 213px 213px 213px 213px;
+  grid-template-rows: 213px 213px 213px;
   grid-auto-flow: row;
 
   row-gap: 16px;
   column-gap: 16px;
+
+  outline: auto yellow;
 }

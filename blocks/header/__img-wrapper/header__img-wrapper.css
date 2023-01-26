@@ -1,5 +1,4 @@
 .header__img-wrapper {
-  outline: auto red;
   display: flex;
   flex-direction: column;
 }

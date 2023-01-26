@@ -1,4 +1,7 @@
 .products {
+  padding-top: 92px;
+  box-sizing: border-box;
+
   /* grid container   */
   width: calc(100% - 148px * 2);
   margin: 0 auto;
@@ -8,4 +11,6 @@
   grid-auto-rows: minmax(100px, auto);
 
   justify-content: center;
+
+  outline: auto red;
 }
