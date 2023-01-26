@@ -1,3 +1,10 @@
 .footer {
-  background-color: lightsalmon;
+  background-color: #2a2c2f;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  outline: auto red;
 }

@@ -1,6 +1,9 @@
 .header {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
-  background-color: green;
+  align-items: center;
+  background-color: #2a2c2f;
+  position: relative;
+  outline: auto red;
 }

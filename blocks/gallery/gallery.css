@@ -1,4 +1,10 @@
 .gallery {
+  /* grid container   */
+  width: calc(100% - 48px * 2);
+  margin: 0 auto;
+
+  outline: auto red;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,0 +1,12 @@
+.footer__links-wrapper {
+  margin-left: 48px;
+  margin-bottom: 24px;
+
+  /* TODO correct */
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: row;
+
+  outline: auto red;
+}

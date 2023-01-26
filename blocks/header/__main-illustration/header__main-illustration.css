@@ -1,4 +1,5 @@
 .header__main-illustration {
-  max-width: 984px;
-  max-height: 615px;
+  width: 984px;
+  height: 615px;
+  object-fit: contain;
 }
