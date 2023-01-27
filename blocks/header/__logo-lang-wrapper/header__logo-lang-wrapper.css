@@ -16,18 +16,18 @@
 
 @media screen and (max-width: 1024px) {
   .header__logo-lang-wrapper {
-    width: calc((928 / 1280) * 100%);
+    width: calc((928 / 1024) * 100%);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header__logo-lang-wrapper {
-    width: calc((720 / 1280) * 100%);
+    width: calc((720 / 768) * 100%);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo-lang-wrapper {
-    width: calc((288 / 1280) * 100%);
+    width: calc((288 / 320) * 100%);
   }
 }
