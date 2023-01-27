@@ -1,5 +1,7 @@
 .header__title {
-  max-width: 720px;
+  /* задаем максимальную ширину контейнера для текста */
+  /* max-width: 720px; */
+  max-width: calc((720 / 1280) * 100%);
 
   margin-top: 48px;
   margin-left: 0;
@@ -19,11 +21,11 @@
   color: #ffffff;
 }
 
+/* iphone 13 размер экрана 390px - соответственно примеяются настройки выше и текст ПРОСТО ГИГАНТСКИЙ */
+
 @media screen and (max-width: 320px) {
   .header__title {
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
-    color: red;
   }
 }
