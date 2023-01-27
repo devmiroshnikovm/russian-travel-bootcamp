@@ -14,22 +14,20 @@
   outline: auto red;
 }
 
-/*
 @media screen and (max-width: 1024px) {
   .header__logo-lang-wrapper {
-    width: 928px;
+    width: calc((928 / 1280) * 100%);
   }
 }
 
 @media screen and (max-width: 768px) {
   .header__logo-lang-wrapper {
-    width: 720px;
+    width: calc((720 / 1280) * 100%);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo-lang-wrapper {
-    width: 288px;
+    width: calc((288 / 1280) * 100%);
   }
 }
-*/
