@@ -1,4 +1,21 @@
 .header__img-wrapper {
-  display: flex;
-  flex-direction: column;
+  width: 76.875%; /* calc((984px / 1280px) * 100) % */
+}
+
+@media screen and (max-width: 1024px) {
+  .header__img-wrapper {
+    width: 90.625%; /* calc((928px / 1024px) * 100) % */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__img-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__img-wrapper {
+    width: 100%;
+  }
 }
