@@ -10,8 +10,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: calc(16 + (30 - 16) * (100vw / 1280));
-  line-height: 1.5;
+  font-size: 2.813vw;
+  line-height: 120%;
   /* or 120% */
 
   text-align: center;
@@ -22,7 +22,7 @@
 @media screen and (max-width: 320px) {
   .header__subtitle {
     font-weight: 400;
-    font-size: calc(16 + ((30 - 16)+ (30 - 16) * 0.7) * (100vw / 1280));
-    line-height: 1.5;
+    font-size: 5vw;
+    line-height: 120%;
   }
 }
