@@ -1,16 +1,12 @@
 .gallery__text-wrapper {
-  margin-top: 92px;
   margin-bottom: 92px;
-  margin-left: 100px;
-  margin-right: 0;
-
-  /*
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  */
+  align-self: baseline;
+  margin-left: calc((148 / 1280) * 100%);
 
   display: flex;
   flex-direction: column;
 
-  max-width: 690px;
+  width: calc((690 / 1280) * 100%);
+
+  outline: auto red;
 }
