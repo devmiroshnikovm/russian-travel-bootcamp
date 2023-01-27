@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 
-  max-width: 484px;
+  /* max-width: 484px; */
 
   font-family: "Inter";
   font-style: normal;
@@ -17,4 +17,11 @@
 
 .products__text:last-child:not(:only-child) {
   padding-top: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .products__text {
+    font-size: 16px;
+    line-height: 163%;
+  }
 }

@@ -6,3 +6,10 @@
   flex-direction: column;
   justify-content: end;
 }
+
+@media screen and (max-width: 320px) {
+  .products__link-wrapper {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+}

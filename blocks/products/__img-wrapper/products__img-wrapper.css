@@ -2,3 +2,10 @@
   grid-row: 2 / 3;
   grid-column: 1 / 2;
 }
+
+@media screen and (max-width: 320px) {
+  .products__img-wrapper {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+}
