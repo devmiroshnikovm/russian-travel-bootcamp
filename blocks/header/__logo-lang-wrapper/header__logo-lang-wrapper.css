@@ -5,26 +5,31 @@
   margin-right: 0;
   padding: 0;
 
-  min-width: 1184px;
+  width: calc((1184 / 1280) * 100%);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  outline: auto red;
 }
 
+/*
 @media screen and (max-width: 1024px) {
   .header__logo-lang-wrapper {
-    min-width: 928px;
+    width: 928px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header__logo-lang-wrapper {
-    min-width: 720px;
+    width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__logo-lang-wrapper {
-    min-width: 288px;
+    width: 288px;
   }
 }
+*/
