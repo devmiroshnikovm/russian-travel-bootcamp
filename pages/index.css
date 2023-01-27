@@ -21,7 +21,9 @@
 @import url(../blocks/header/__img-wrapper/header__img-wrapper.css);
 @import url(../blocks/header/__lang-en/header__lang-en.css);
 @import url(../blocks/header/__lang-ru/header__lang-ru.css);
+@import url(../blocks/header/__lang-wrapper/header__lang-wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-lang-wrapper/header__logo-lang-wrapper.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);

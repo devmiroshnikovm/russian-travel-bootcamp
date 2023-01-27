@@ -11,3 +11,11 @@
 
   color: #ffffff;
 }
+
+@media screen and (max-width: 320px) {
+  .gallery__title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

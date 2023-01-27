@@ -1,7 +1,7 @@
 .header__title {
   max-width: 720px;
 
-  margin-top: 136px;
+  margin-top: 48px;
   margin-left: 0;
   margin-bottom: 32px;
   margin-right: 0;
@@ -17,4 +17,13 @@
   text-align: center;
 
   color: #ffffff;
+}
+
+@media screen and (max-width: 320px) {
+  .header__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: red;
+  }
 }

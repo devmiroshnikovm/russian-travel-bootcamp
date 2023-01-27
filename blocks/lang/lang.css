@@ -10,3 +10,12 @@
 
   color: #ffffff;
 }
+
+@media screen and (max-width: 320px) {
+  .lang {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: red;
+  }
+}
