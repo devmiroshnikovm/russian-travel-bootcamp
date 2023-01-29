@@ -10,7 +10,6 @@
   /* identical to box height, or 107% */
 
   color: #ffffff;
-  outline: auto red;
 }
 
 @media screen and (max-width: 320px) {

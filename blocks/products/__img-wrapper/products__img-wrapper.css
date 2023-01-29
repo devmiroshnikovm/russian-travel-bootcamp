@@ -4,7 +4,6 @@
 
   grid-row: 2 / 3;
   grid-column: 1 / 2;
-  outline: auto red;
 }
 
 @media screen and (max-width: 1024px) {

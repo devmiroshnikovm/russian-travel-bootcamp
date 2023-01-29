@@ -9,8 +9,6 @@
 
   row-gap: 16px;
   column-gap: 16px;
-
-  outline: auto yellow;
 }
 
 @media screen and (max-width: 1024px) {
