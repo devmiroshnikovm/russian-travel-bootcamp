@@ -3,10 +3,32 @@
   align-self: baseline;
   margin-left: calc((148 / 1280) * 100%);
 
+  /* задаем минимальную ширину тестового блока по макету */
+  max-width: calc((690 / 1280) * 100%);
+
   display: flex;
   flex-direction: column;
 
-  width: calc((690 / 1280) * 100%);
-
   outline: auto red;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery__text-wrapper {
+    margin-left: calc((48 / 1024) * 100%);
+    max-width: calc((690 / 1024) * 100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__text-wrapper {
+    margin-left: calc((24 / 768) * 100%);
+    max-width: calc((720 / 768) * 100%);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery__text-wrapper {
+    margin-left: calc((16 / 320) * 100%);
+    max-width: calc((288 / 320) * 100%);
+  }
 }

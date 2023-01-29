@@ -10,19 +10,31 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 2.813vw;
-  line-height: 120%;
-  /* or 120% */
+  font-size: 2.813vw; /* пример адаптивного шрифта */
+  line-height: 120%; /* пример адаптивного шрифта */
 
   text-align: center;
 
   color: #ffffff;
 }
 
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    margin-bottom: 56px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__subtitle {
+    margin-bottom: 32px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header__subtitle {
+    margin-bottom: 40px;
+
     font-weight: 400;
-    font-size: 5vw;
-    line-height: 120%;
+    font-size: 5vw; /* пример адаптивного шрифта */
+    line-height: 125%; /* пример адаптивного шрифта */
   }
 }

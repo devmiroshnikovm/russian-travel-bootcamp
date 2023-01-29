@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);@import url(../blocks/content/content.css);
-@import url(../blocks/cover/__cover__link/cover-trains.jpg);
 @import url(../blocks/cover/__cover__link/cover__link.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -9,7 +8,6 @@
 @import url(../blocks/footer/__links-wrapper/footer__links-wrapper.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/gallery/__img/gallery__img.css);
-@import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__items-wrapper/gallery__items-wrapper.css);
 @import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__span-number/gallery__span-number.css);
@@ -19,8 +17,6 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/header/__img-text/header__img-text.css);
 @import url(../blocks/header/__img-wrapper/header__img-wrapper.css);
-@import url(../blocks/header/__lang-en/header__lang-en.css);
-@import url(../blocks/header/__lang-ru/header__lang-ru.css);
 @import url(../blocks/header/__lang-wrapper/header__lang-wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-lang-wrapper/header__logo-lang-wrapper.css);
@@ -30,6 +26,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/lang/_enabled/lang_enabled_true.css);
 @import url(../blocks/lang/lang.css);
+@import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/products/__img/products__img.css);
 @import url(../blocks/products/__img-wrapper/products__img-wrapper.css);

@@ -3,6 +3,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2a2c2f;
   position: relative;
+
+  margin-bottom: 114px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 110px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-bottom: 86px;
+  }
 }

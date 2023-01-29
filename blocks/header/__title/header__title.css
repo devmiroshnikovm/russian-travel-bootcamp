@@ -2,7 +2,7 @@
   /* задаем максимальную ширину контейнера для текста */
   max-width: 720px;
 
-  margin-top: 48px;
+  margin-top: 56px;
   margin-left: 0;
   margin-bottom: 32px;
   margin-right: 0;
@@ -12,20 +12,25 @@
   font-style: normal;
   font-weight: 900;
   /*font-size: calc(40 + (96 - 40) * (100vw / 1280));*/ /* font-size: 96px;  */ /*  font-size: 7.5vw; */
-  font-size: 7.5vw;
-  line-height: 110%;
+  font-size: 7.5vw; /* пример адаптивного шрифта */
+  line-height: 104%; /* пример адаптивного шрифта */
 
   text-align: center;
 
   color: #ffffff;
 }
 
-/* iphone 13 размер экрана 390px - соответственно примеяются настройки выше и текст ПРОСТО ГИГАНТСКИЙ */
+@media screen and (max-width: 1024px) {
+  .header__title {
+    margin-top: 48px;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .header__title {
+    margin-bottom: 16px;
     /* font-size: calc(40 + ((96 - 40)+ (96 - 40) * 0.7) * (100vw / 1280));*/ /* font-size: 96px;  */ /*  font-size: 12.5vw; */
-    font-size: 12.5vw;
-    line-height: 110%;
+    font-size: 12.5vw; /* пример адаптивного шрифта */
+    line-height: 110%; /* пример адаптивного шрифта */
   }
 }

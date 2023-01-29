@@ -1,9 +1,16 @@
 .footer__links-wrapper {
-  margin-left: 48px;
+  /*  margin-left: 48px; */
+  margin-left: calc((48 / 1280) * 100%);
   margin-bottom: 24px;
 
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links-wrapper {
+    margin-left: calc((24 / 768) * 100%);
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -11,6 +18,9 @@
     margin-left: 16px;
     margin-bottom: 0;
 
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 32px;
   }
 }
