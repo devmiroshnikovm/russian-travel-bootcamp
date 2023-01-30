@@ -8,7 +8,7 @@
   /* задаем максимальную ширину контейнера для текста */
   max-width: 720px;
 
-  font-family: "Inter Black";
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 900;
 

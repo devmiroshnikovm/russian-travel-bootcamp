@@ -4,7 +4,7 @@
 
   /* max-width: 484px; */
 
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -22,6 +22,5 @@
   .products__text {
     margin-left: 16px;
     font-size: 16px;
-    line-height: 163%;
   }
 }

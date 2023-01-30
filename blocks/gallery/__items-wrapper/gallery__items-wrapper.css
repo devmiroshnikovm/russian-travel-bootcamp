@@ -28,9 +28,6 @@
 
     grid-template-columns: repeat(2, minmax(calc((352 / 768) * 100%), 1fr));
     grid-template-rows: repeat(6, minmax(264px, 264px)); /* TODO если выставить minmax(%, 264px) картинки не сжимаются по макету - почему? */
-
-    row-gap: 14px;
-    column-gap: 14px;
   }
 }
 

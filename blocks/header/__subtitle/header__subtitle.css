@@ -7,7 +7,7 @@
 
   max-width: 640px;
 
-  font-family: "Inter";
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -21,11 +21,6 @@
 @media screen and (max-width: 1024px) {
   .header__subtitle {
     margin-bottom: 56px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .header__subtitle {
-    margin-bottom: 56x;
   }
 }
 

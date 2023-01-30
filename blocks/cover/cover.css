@@ -2,7 +2,6 @@
   margin-bottom: 92px;
 
   width: calc((1184 / 1280) * 100%);
-  min-height: 740px;
 }
 
 @media screen and (max-width: 1024px) {
