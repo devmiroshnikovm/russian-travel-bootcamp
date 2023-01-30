@@ -1,5 +1,4 @@
 .footer__links-wrapper {
-  /*  margin-left: 48px; */
   margin-left: calc((48 / 1280) * 100%);
   margin-bottom: 24px;
 

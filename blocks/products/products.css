@@ -1,10 +1,6 @@
 .products {
   padding-top: 92px;
 
-  /* 
-  зачем это?
-  margin: 0 auto; */
-
   width: calc((984 / 1280) * 100%);
 
   display: grid;

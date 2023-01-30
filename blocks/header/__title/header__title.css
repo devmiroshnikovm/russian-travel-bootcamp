@@ -1,12 +1,12 @@
 .header__title {
-  /* задаем максимальную ширину контейнера для текста */
-  max-width: 720px;
-
   margin-top: 56px;
   margin-left: 0;
   margin-bottom: 32px;
   margin-right: 0;
   padding: 0;
+
+  /* задаем максимальную ширину контейнера для текста */
+  max-width: 720px;
 
   font-family: "Inter Black";
   font-style: normal;
