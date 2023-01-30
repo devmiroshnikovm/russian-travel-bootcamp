@@ -42,7 +42,7 @@ Step by step instructions on how to install the project
 
 ## Usage
 
-open 127.0.0.1 port 5500 locally
+open 127.0.0.1 port 5500 locally or https://devmiroshnikovm.github.io/russian-travel-bootcamp/
 
 ## Contributing
 
