@@ -18,6 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .products__item {
+    margin-bottom: 73px;
     grid-template-columns: 340px 1fr;
     grid-template-rows: auto auto;
     column-gap: 28px;
@@ -26,6 +27,8 @@
 
 @media screen and (max-width: 320px) {
   .products__item {
+    margin-bottom: 50px;
+
     grid-template-columns: 320px;
     grid-template-rows: auto auto auto auto auto;
     row-gap: 32px;

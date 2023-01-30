@@ -13,6 +13,11 @@
   color: #ffffff;
 }
 
+.footer__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.8s;
+}
+
 .footer__link:last-child:not(:only-child) {
   margin: 0;
 }

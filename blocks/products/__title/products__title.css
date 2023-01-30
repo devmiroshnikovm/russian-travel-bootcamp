@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 320px) {
   .products__title {
+    margin-left: 16px;
     font-size: 32px;
     line-height: 35px;
   }

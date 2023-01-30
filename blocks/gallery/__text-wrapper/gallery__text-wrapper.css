@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 768px) {
   .gallery__text-wrapper {
+    margin-bottom: 88px;
     margin-left: calc((24 / 768) * 100%);
     max-width: calc((720 / 768) * 100%);
   }
@@ -26,6 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .gallery__text-wrapper {
+    margin-bottom: 64px;
     margin-left: calc((16 / 320) * 100%);
     max-width: calc((288 / 320) * 100%);
   }

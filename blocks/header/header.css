@@ -5,17 +5,17 @@
   align-items: center;
   position: relative;
 
-  margin-bottom: 114px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin-bottom: 110px;
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    margin-bottom: 86px;
+    margin-bottom: 64px;
   }
 }

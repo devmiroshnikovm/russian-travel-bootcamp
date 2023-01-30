@@ -32,5 +32,6 @@
 }
 
 .cover__link:hover:before {
+  transition: opacity 0.8s;
   opacity: 80%;
 }

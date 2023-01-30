@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 900;
 
-  font-size: 7.5vw; /* пример адаптивного шрифта */
-  line-height: 104%; /* пример адаптивного шрифта */
+  font-size: 96px;
+  line-height: 100px;
 
   text-align: center;
 
@@ -30,7 +30,7 @@
   .header__title {
     margin-bottom: 16px;
     /* font-size: calc(40 + ((96 - 40)+ (96 - 40) * 0.7) * (100vw / 1280));*/ /* font-size: 96px;  */ /*  font-size: 12.5vw; */
-    font-size: 12.5vw; /* пример адаптивного шрифта */
-    line-height: 110%; /* пример адаптивного шрифта */
+    font-size: 40px;
+    line-height: 44px;
   }
 }

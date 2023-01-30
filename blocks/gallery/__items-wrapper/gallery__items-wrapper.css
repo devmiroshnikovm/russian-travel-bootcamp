@@ -13,6 +13,8 @@
 
 @media screen and (max-width: 1024px) {
   .gallery__items-wrapper {
+    width: calc((928 / 1024) * 100%);
+
     grid-template-columns: repeat(3, minmax(calc((300 / 928) * 100%), 1fr)); /* минимальная ширина grid элемента  рассчитывается от ширины parent 928 */
     grid-template-rows: repeat(4, minmax(calc((225 / 928) * 100%), 1fr));
     row-gap: 14px;
@@ -22,6 +24,8 @@
 
 @media screen and (max-width: 768px) {
   .gallery__items-wrapper {
+    width: calc((720 / 768) * 100%);
+
     grid-template-columns: repeat(2, minmax(calc((352 / 768) * 100%), 1fr));
     grid-template-rows: repeat(6, minmax(264px, 264px)); /* TODO если выставить minmax(%, 264px) картинки не сжимаются по макету - почему? */
 
@@ -32,6 +36,8 @@
 
 @media screen and (max-width: 320px) {
   .gallery__items-wrapper {
+    width: calc((288 / 320) * 100%);
+
     grid-template-columns: 288px; /* выставляем вручную */
     grid-template-rows: repeat(12, 216px);
 
