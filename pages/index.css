@@ -19,6 +19,8 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/header/__img-text/header__img-text.css);
 @import url(../blocks/header/__img-wrapper/header__img-wrapper.css);
+@import url(../blocks/header/__lang/_enabled/header__lang_enabled.css);
+@import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-wrapper/header__lang-wrapper.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-lang-wrapper/header__logo-lang-wrapper.css);
@@ -26,8 +28,6 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/lang/_enabled/lang_enabled_true.css);
-@import url(../blocks/lang/lang.css);
 @import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/products/__img/products__img.css);
@@ -41,7 +41,3 @@
 @import url(../blocks/products/__title/products__title.css);
 @import url(../blocks/products/__title-wrapper/products__title-wrapper.css);
 @import url(../blocks/products/products.css);
-
-* {
-  outline: 1px solid yellowgreen;
-}

@@ -1,24 +1,18 @@
 .cover {
   margin-bottom: 92px;
-
   width: calc((1184 / 1280) * 100%);
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    margin-bottom: 92px;
-
     width: calc((1024 / 1024) * 100%);
-    height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     margin-bottom: 88px;
-
     width: calc((768 / 768) * 100%);
-    height: 480px;
   }
 }
 
@@ -26,6 +20,5 @@
   .cover {
     margin-bottom: 64px;
     width: calc((320 / 320) * 100%);
-    height: 200px;
   }
 }

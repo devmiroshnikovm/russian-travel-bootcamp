@@ -8,6 +8,10 @@
   column-gap: 40px;
 }
 
+.products__item:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .products__item {
     grid-template-columns: 440px 1fr;

@@ -1,6 +1,8 @@
 .footer__link {
-  margin: 0;
+  margin-top: 0;
   margin-right: 18px;
+  margin-bottom: 0;
+  margin-left: 0;
 
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-style: normal;
@@ -19,7 +21,7 @@
 }
 
 .footer__link:last-child:not(:only-child) {
-  margin: 0;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 320px) {
