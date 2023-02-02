@@ -1,21 +1,8 @@
 .footer__links-wrapper {
-  margin-left: calc((48 / 1280) * 100%);
   margin-bottom: 24px;
 
   display: flex;
   flex-direction: row;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer__links-wrapper {
-    margin-left: calc((48 / 1024) * 100%);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__links-wrapper {
-    margin-left: calc((24 / 768) * 100%);
-  }
 }
 
 @media screen and (max-width: 320px) {

@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
 
-  /* max-width: 484px; */
-
   font-family: "Inter", "Arial", "Helvetica", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -20,7 +18,12 @@
 
 @media screen and (max-width: 768px) {
   .products__text {
-    margin-left: 16px;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .products__text {
+    margin-left: 16px;
   }
 }

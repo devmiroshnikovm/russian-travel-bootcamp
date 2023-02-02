@@ -1,6 +1,6 @@
 .footer__copyright {
   margin-top: 0;
-  margin-right: 48px;
+  margin-right: 0;
   margin-bottom: 24px;
   margin-left: 0;
 
@@ -14,12 +14,6 @@
   text-align: right;
 
   color: #ffffff;
-}
-
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-    margin-right: 24px;
-  }
 }
 
 @media screen and (max-width: 320px) {

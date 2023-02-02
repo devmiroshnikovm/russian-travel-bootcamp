@@ -1,4 +1,4 @@
-.header__img-text {
+.lead__img-text {
   margin-top: 8px;
   margin-right: 0;
   margin-bottom: 0;
@@ -19,13 +19,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header__img-text {
+  .lead__img-text {
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .header__img-text {
+  .lead__img-text {
     margin-left: 16px;
   }
 }

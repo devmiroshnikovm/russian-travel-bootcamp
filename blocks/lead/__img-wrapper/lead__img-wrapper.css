@@ -1,15 +1,15 @@
-.header__img-wrapper {
+.lead__img-wrapper {
   width: calc((984 / 1280) * 100%);
 }
 
 @media screen and (max-width: 1024px) {
-  .header__img-wrapper {
+  .lead__img-wrapper {
     width: calc((928 / 1024) * 100%);
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__img-wrapper {
+  .lead__img-wrapper {
     width: 100%;
   }
 }

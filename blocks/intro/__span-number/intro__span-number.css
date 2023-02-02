@@ -1,12 +1,10 @@
-.gallery__list {
+.intro__span-number {
   margin: 0;
   padding: 0;
 
-  list-style-type: none;
-
-  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
   /* or 150% */
