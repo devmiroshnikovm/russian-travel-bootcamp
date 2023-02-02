@@ -38,3 +38,7 @@
 @import url(../blocks/products/__text-wrapper/products__text-wrapper.css);
 @import url(../blocks/products/__title/products__title.css);
 @import url(../blocks/products/products.css);
+
+* {
+  outline: 1px solid yellowgreen;
+}
