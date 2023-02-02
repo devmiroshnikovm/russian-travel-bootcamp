@@ -7,9 +7,24 @@
   justify-content: start;
 }
 
-@media screen and (max-width: 320px) {
+/*
+промежуточные значения
+*/
+
+@media screen and (max-width: 680px) {
   .products__text-wrapper {
     grid-row: 4 / 5;
     grid-column: 1 / 2;
   }
 }
+
+/*
+промежуточные значения
+*/
+
+/* @media screen and (max-width: 320px) {
+  .products__text-wrapper {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+  }
+} */

@@ -16,6 +16,21 @@
   color: #ffffff;
 }
 
+/*
+промежуточные значения
+*/
+
+@media screen and (max-width: 600px) {
+  .cover__title {
+    font-size: 33px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+}
+
+/*
+промежуточные значения
+*/
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;

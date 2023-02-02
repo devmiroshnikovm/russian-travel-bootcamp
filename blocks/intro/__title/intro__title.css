@@ -12,6 +12,27 @@
   color: #ffffff;
 }
 
+/*
+промежуточные значения
+*/
+@media screen and (max-width: 900px) {
+  .intro__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro__title {
+    font-size: 33px;
+    line-height: 36px;
+  }
+}
+
+/*
+промежуточные значения
+*/
+
 @media screen and (max-width: 320px) {
   .intro__title {
     font-size: 32px;

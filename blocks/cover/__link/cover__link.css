@@ -49,6 +49,24 @@
   }
 }
 
+/*
+промежуточные значения
+*/
+@media screen and (max-width: 600px) {
+  .cover__link {
+    min-height: calc(600px / 1.6);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__link {
+    min-height: calc(400px / 1.6);
+  }
+}
+/*
+промежуточные значения
+*/
+
 @media screen and (max-width: 320px) {
   .cover__link {
     min-height: 200px;

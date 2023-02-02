@@ -24,9 +24,22 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 320px) {
+/*
+промежуточные значения
+*/
+@media screen and (max-width: 477px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;
   }
 }
+/*
+промежуточные значения
+*/
+
+/* @media screen and (max-width: 320px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+} */

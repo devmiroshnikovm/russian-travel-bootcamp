@@ -5,7 +5,11 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 320px) {
+/*
+промежуточные значения
+*/
+
+@media screen and (max-width: 477px) {
   .footer__links-wrapper {
     margin-left: 16px;
     margin-bottom: 0;
@@ -16,3 +20,19 @@
     row-gap: 32px;
   }
 }
+
+/*
+промежуточные значения
+*/
+
+/* @media screen and (max-width: 320px) {
+  .footer__links-wrapper {
+    margin-left: 16px;
+    margin-bottom: 0;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 32px;
+  }
+} */

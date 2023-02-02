@@ -7,10 +7,26 @@
   justify-content: end;
 }
 
+/*
+промежуточные значения
+*/
+
 /* на разрешении 320 меняется местами порядок отображения элементов */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 680px) {
   .products__link-wrapper {
     grid-row: 2 / 3;
     grid-column: 1 / 2;
   }
 }
+
+/*
+промежуточные значения
+*/
+
+/* на разрешении 320 меняется местами порядок отображения элементов */
+/* @media screen and (max-width: 320px) {
+  .products__link-wrapper {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+} */

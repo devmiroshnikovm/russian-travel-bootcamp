@@ -26,10 +26,31 @@
   }
 }
 
+/*
+промежуточные значения
+*/
+@media screen and (max-width: 900px) {
+  .lead__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .lead__title {
+    font-size: 41px;
+    line-height: 45px;
+  }
+}
+
+/*
+промежуточные значения
+*/
+
 @media screen and (max-width: 320px) {
   .lead__title {
     margin-bottom: 16px;
-    /* font-size: calc(40 + ((96 - 40)+ (96 - 40) * 0.7) * (100vw / 1280));*/ /* font-size: 96px;  */ /*  font-size: 12.5vw; */
+
     font-size: 40px;
     line-height: 44px;
   }

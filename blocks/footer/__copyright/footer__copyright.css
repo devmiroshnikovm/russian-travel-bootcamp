@@ -16,8 +16,21 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 320px) {
+/*
+промежуточные значения
+*/
+@media screen and (max-width: 477px) {
   .footer__copyright {
     margin-top: 48px;
   }
 }
+
+/*
+промежуточные значения
+*/
+
+/* @media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin-top: 48px;
+  }
+} */
