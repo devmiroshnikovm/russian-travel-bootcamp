@@ -29,25 +29,8 @@
 /*
 промежуточные значения
 */
-@media screen and (max-width: 900px) {
-  .lead__title {
-    font-size: 60px;
-    line-height: 60px;
-  }
-}
 
-@media screen and (max-width: 700px) {
-  .lead__title {
-    font-size: 41px;
-    line-height: 45px;
-  }
-}
-
-/*
-промежуточные значения
-*/
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__title {
     margin-bottom: 16px;
 
@@ -55,3 +38,17 @@
     line-height: 44px;
   }
 }
+
+/*
+промежуточные значения
+*/
+
+/* @media screen and (max-width: 320px) {
+  .lead__title {
+    margin-bottom: 16px;
+
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+ */

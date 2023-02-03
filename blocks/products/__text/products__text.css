@@ -25,5 +25,6 @@
 @media screen and (max-width: 320px) {
   .products__text {
     margin-left: 16px;
+    margin-right: 16px;
   }
 }

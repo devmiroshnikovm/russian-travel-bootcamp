@@ -12,6 +12,13 @@
   text-align: right;
 
   color: #ffffff;
+
+  transition: opacity 0.8s;
+  text-decoration: none;
+}
+
+.header__lang:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 320px) {
